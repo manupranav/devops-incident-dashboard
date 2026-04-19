@@ -66,6 +66,15 @@ def get_disk_usage(path: str = "/") -> float:
     """
     return round(random.uniform(30.0, 85.0), 2)
 
+def get_network_io() -> dict:
+    """
+    Simulated network I/O stats.
+    TODO: Replace with psutil.net_io_counters() in production.
+    """
+    return {
+        "bytes_sent": random.randint(1000, 50000),
+        "bytes_recv": random.randint(5000, 100000),
+    }
 
 def check_thresholds(metrics: dict, thresholds: dict) -> list:
     """Compare metrics against thresholds and return list of alerts."""
