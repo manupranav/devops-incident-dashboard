@@ -1,0 +1,59 @@
+# devops-incident-dashboard .gitignore
+
+# --- Runtime logs (generated at runtime, not source code) ---
+logs/
+*.log
+NOTES.md
+TASKS.md
+
+# --- Environment files (NEVER commit secrets) ---
+.env
+.env.local
+.env.*.local
+*.env
+
+# --- Python artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+ENV/
+
+# --- IDE and editor files ---
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- OS artifacts ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V7
+.Trashes
+ehthumbs.db
+
+# --- Test artifacts ---
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# --- Secrets (extra safety net — should never be here anyway) ---
+*.pem
+*.key
+*.p12
+secrets/
