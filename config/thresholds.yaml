@@ -20,7 +20,8 @@ thresholds:
   # Disk utilization (root filesystem by default)
   disk_warning: 75       # Warn at 75% — schedule cleanup
   disk_critical: 90      # Critical at 90% — logs may stop writing
-
+  network_warning_mbps: 80
+  network_critical_mbps: 950
 # Polling settings
 polling:
   interval_seconds: 10   # How often monitor.py polls metrics
