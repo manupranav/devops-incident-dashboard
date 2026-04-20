@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+
+# WORK IN PROGRESS: refactoring loop
 """
 monitor.py — System Health Monitor
 Checks CPU, memory, and disk usage against configured thresholds.
