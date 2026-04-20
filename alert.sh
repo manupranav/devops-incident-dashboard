@@ -61,5 +61,5 @@ if [[ "$LEVEL" == "CRITICAL" ]]; then
     echo "  → Would trigger PagerDuty incident for: ${METRIC} CRITICAL"
 fi
 
-echo "[alert.sh] Done."
+echo "[alert.sh] Done. Alert logged to ${ALERT_LOG}
 exit 0
