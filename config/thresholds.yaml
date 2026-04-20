@@ -10,7 +10,7 @@
 
 thresholds:
   # CPU utilization
-  cpu_warning: 55        # Warn at 75% — investigate if sustained
+  cpu_warning: 60        # Warn at 75% — investigate if sustained
   cpu_critical: 90       # Page on-call at 90% — immediate action needed
 
   # Memory utilization
