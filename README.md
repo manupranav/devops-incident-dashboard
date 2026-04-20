@@ -132,3 +132,5 @@ Please follow [Conventional Commits](https://www.conventionalcommits.org/) for c
 ## License
 
 MIT — see LICENSE (TODO: add LICENSE file)
+
+## Developer Notes
