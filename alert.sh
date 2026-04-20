@@ -63,3 +63,6 @@ fi
 
 echo "[alert.sh] Done. Alert logged to ${ALERT_LOG}
 exit 0
+
+
+# TODO: Implement deduplication logic here
