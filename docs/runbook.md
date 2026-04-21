@@ -185,3 +185,4 @@ After resolving any CRITICAL incident:
 
 *TODO: Add section for network-related alerts once network monitoring is implemented.*  
 *TODO: Link to on-call rotation schedule (Confluence page — pending).*
+## Monitoring Tools\n- Grafana\n- Prometheus 
